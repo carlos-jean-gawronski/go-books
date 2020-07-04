@@ -1,0 +1,105 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 7px;
+  margin: 30px 20px;
+  padding: 30px;
+}
+
+main section {
+  padding: 40px;
+  width: 70%;
+  border: 2px solid #584597;
+  box-shadow: 1px 1px 5px #584597;
+  border-radius: 10px;
+}
+
+main section h1 {
+  margin: 0 0 10px 0;
+  font-size: 25px;
+  color: #584597;
+}
+
+main section form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main section label {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+main input {
+  border: 1px solid #777;
+  border-radius: 5px;
+  color: #777;
+  width: calc(100% - 60px);
+  padding: 10px;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+main input:hover {
+  border-color: #584597;
+}
+
+main input:focus {
+  outline: 0;
+  border-color: #2e01c2 !important;
+}
+
+main button {
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #584597;
+  background-color: #584597;
+  color: #fff;
+  transition: 0.3s;
+}
+
+main button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #584597;
+}
+
+.tag {
+  margin-top: 30px;
+  height: 200px;
+}
+
+ul.tags {
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #eee;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  outline: 0;
+}
+
+ul.tags li {
+  background-color: #fff;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+  color: #222;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.selected {
+  background-color: rgba(120, 90, 218, 0.4) !important;
+  border-top: 1px solid #584597 !important;
+  border-bottom: 1px solid #584597 !important;
+}

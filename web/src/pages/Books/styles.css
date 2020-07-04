@@ -1,0 +1,114 @@
+div.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  padding-bottom: 30px;
+  margin: 10px 30px 10px 30px;
+  border-radius: 7px;
+}
+
+div.content h1 {
+  color: #714abe;
+}
+
+div.content section {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+div.content section div.book {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  width: 780px;
+  height: 210px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+div.content section div.book img {
+  width: 200px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+div.content section div.book h1 {
+  color: #333;
+  font-size: 20px;
+  margin: 0;
+}
+
+div.content section div.book p {
+  color: #777;
+  margin: 0;
+}
+
+p.author {
+  margin-bottom: 10px !important;
+}
+
+.get-know {
+  width: 100%;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #714abe;
+  color: #fff;
+  background-color: #714abe;
+  padding: 10px;
+  border-radius: 7px;
+  transition: 0.4s;
+}
+
+.get-know:hover {
+  cursor: pointer;
+  color: #714abe;
+  background-color: #fff;
+  transform: scale(1.2);
+}
+
+div.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  margin-bottom: 10px !important;
+}
+
+.bad {
+  color: rgba(238, 56, 56, 0.8) !important;
+  margin-left: 5px !important;
+}
+
+.good {
+  color: rgba(17, 233, 35, 0.8) !important;
+  margin-left: 5px !important;
+}
+
+.nbf {
+  font-size: 30px;
+  color: #d39015 !important;
+  margin-top: 30px;
+}
+
+div#tags {
+  display: flex;
+  flex-direction: row;
+}
+
+div#tags p {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #eee;
+  font-size: 16px;
+  color: #555;
+}
