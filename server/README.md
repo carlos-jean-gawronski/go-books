@@ -24,3 +24,4 @@ Those will run the migrations of the database tables and populate the `tags` tab
 
 Then, to populate the `books` table, it's needed to do manually. So go to the `web` folder and follow the steps inside the `README.md` file there.
 
+Then, to start de the server, run `yarn dev` or `npm run dev`.
